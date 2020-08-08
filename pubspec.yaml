@@ -1,0 +1,50 @@
+name: food_drive
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # flutter.dev
+
+  # dart.dev
+  meta: ^1.1.8
+
+  # google.dev
+  json_annotation: ^3.0.1
+
+  # material.io
+  google_fonts: ^1.1.0
+
+  # dash-overflow.net
+  provider: ^4.3.1
+  freezed_annotation: ^0.11.0
+
+  # bloclibrary.dev
+  bloc: ^6.0.1
+  flutter_bloc: ^6.0.1
+
+  # others
+  english_words: ^3.1.5
+  eva_icons_flutter: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # dart.dev
+  build_runner: ^1.10.1
+
+  # google.dev
+  json_serializable: ^3.3.0
+
+  # dash-overflow.net
+  freezed: ^0.11.4
+
+flutter:
+  uses-material-design: true
